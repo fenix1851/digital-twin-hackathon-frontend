@@ -1,15 +1,18 @@
 <template>
-    <div>
-        <a-button type="primary">Primary Button</a-button>
-    </div>
+  <router-view />
 </template>
 
-<script>
-import { Button } from 'ant-design-vue';
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
 
-export default {
-    components: {
-        'a-button': Button
-    }
-};
-</script>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+</style>
